@@ -1,6 +1,6 @@
 # Advanced Chatbot Project
 
-This project implements an advanced chatbot model designed for engaging conversations. The chatbot utilizes state-of-the-art natural language processing techniques to generate human-like responses.
+This project contains a weak. But, general ai that trains off conversations and data. The data implentmentation i haven't updated yet 
 
 ## Project Structure
 
