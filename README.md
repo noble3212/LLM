@@ -1,4 +1,4 @@
-# Advanced Chatbot Project
+# "Advanced" Chatbot Project
 
 This project contains a weak. But, general ai that trains off conversations and data. The data implentmentation i haven't updated yet 
 
