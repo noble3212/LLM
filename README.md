@@ -26,18 +26,18 @@ To set up the project, follow these steps:
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd advanced-chatbot
+   cd advanced-chatbot (i didnt upload the folder GL)
    ```
 
 2. Create a virtual environment (optional but recommended):
    ```
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate` (linux mainly. I just use VSCODE in windows)
    ```
 
 3. Install the required dependencies:
    ```
-   pip install -r requirements.txt
+   pip install -r requirements.txt (its like one line)
    ```
 
 ## Usage
@@ -52,9 +52,9 @@ Follow the prompts to interact with the chatbot. Type 'quit' to exit the convers
 
 ## Features
 
-- Engaging and context-aware conversations.
-- Ability to handle multiple user inputs and maintain conversation history.
-- Customizable settings for model parameters and behavior.
+- Engaging and context-aware conversations. (in 10 years)
+- Ability to handle multiple user inputs and maintain conversation history. (it's reaction to anything hard was Meow.)
+- Customizable settings for model parameters and behavior. (this is good guh)
 
 ## Contributing
 
