@@ -54,7 +54,8 @@ Follow the prompts to interact with the chatbot. Type 'quit' to exit the convers
 
 - Engaging and context-aware conversations. (in 10 years)
 - Ability to handle multiple user inputs and maintain conversation history. (it's reaction to anything hard was Meow.)
-- Customizable settings for model parameters and behavior. (this is good guh)
+- Customizable settings for model parameters and behavior. (this is good )
+- Please note there might be a loop with the new HTML. But, its due to a sleep mode in the code or sum. + training data you'll see
 
 ## Contributing
 
