@@ -56,6 +56,7 @@ Follow the prompts to interact with the chatbot. Type 'quit' to exit the convers
 - Ability to handle multiple user inputs and maintain conversation history. (it's reaction to anything hard was Meow.)
 - Customizable settings for model parameters and behavior. (this is good )
 - Please note there might be a loop with the new HTML. But, its due to a sleep mode in the code or sum. + training data you'll see
+- base model AI is distilgpt small. User:/... \nAI: is not what GPT was trained on so it doesnt know how to continue a conversation. chat histroy grows but it doesnt understand it. (i will fix)
 
 ## Contributing
 
