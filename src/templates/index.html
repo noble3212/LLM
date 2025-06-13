@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Chatbot</title>
+</head>
+<body>
+    <h1>Chat with AI</h1>
+    <div id="chat"></div>
+    <input type="text" id="user_input" placeholder="Type a message..." autofocus>
+    <button onclick="sendMessage()">Send</button>
+    <script>
+        function sendMessage() {
+            const input = document.getElementById("user_input");
+            fetch("/chat", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({message: input.value})
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("chat").innerHTML += "<b>You:</b> " + input.value + "<br><b>AI:</b> " + data.response + "<br>";
+                input.value = "";
+            });
+        }
+    </script>
+</body>
+</html>
