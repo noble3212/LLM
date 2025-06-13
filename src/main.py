@@ -9,6 +9,9 @@ c4 = load_dataset("c4", "en", split="train", streaming=True, trust_remote_code=T
 wiki = load_dataset("wiki40b", "en")
 books = load_dataset("bookcorpus", trust_remote_code=True)
 code = load_dataset("codeparrot/codeparrot-clean")
+gsm8k = load_dataset("gsm8k", "main", split="train")
+csqa = load_dataset("commonsense_qa")
+piqa = load_dataset("piqa", trust_remote_code=True)
 
 def main():
     conversation_manager = ConversationManager()
