@@ -6,7 +6,7 @@ from datasets import load_dataset
 
 # Load datasets (for exploration or preprocessing, not for direct inference)
 owt = load_dataset("openwebtext", split="train", streaming=True, trust_remote_code=True)
-c4 = load_dataset("c4", "en", split="train", streaming=True, trust_remote_code=True)
+c4 = load_dataset("allenai/c4", "en", split="train", streaming=True, trust_remote_code=True)
 wiki = load_dataset("wiki40b", "en")
 books = load_dataset("bookcorpus", trust_remote_code=True)
 code = load_dataset("codeparrot/codeparrot-clean")
