@@ -2,7 +2,7 @@ from pathlib import Path
 
 class Config:
     MODEL_NAME = "your-advanced-chatbot-model"
-    MAX_LENGTH = 100
+    MAX_LENGTH = 3000
     TEMPERATURE = 0.7
     TOP_K = 50
     TOP_P = 0.95
